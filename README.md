@@ -1,113 +1,87 @@
-🏠 Flat Hunt — Find Your Perfect Accommodation
-Live Demo: https://flat-hunt-cu.vercel.app/home
+🏡 Flat Hunt – Real Estate Finder Web App
 
-A modern and responsive accommodation-finder web application built with React.js, HTML/CSS, and Firebase.
-Flat Hunt allows users to browse flats, view detailed information, check amenities, see map locations, and submit interest through a contact form.
+Flat Hunt is a simple and fast React-based real estate listing platform that allows users to browse available flats and express interest through a form submission. It focuses on clean UI, minimal flow, and easy property exploration.
 
 🚀 Features
-🔍 Browse Flats Easily
 
-View list of flats with images, location, and monthly pricing
+🔍 Browse property listings with images and details
 
-Explore detailed pages with:
+🏷️ Filter & explore flats (location, price, type)
 
-Image carousel
+📄 Property detail view
 
-Full amenities list
+📬 "Interested" button redirects users to a form
 
-Owner details
+📑 Form submission with Firebase backend
 
-Distance & type information
-
-🗺️ Map Powered View
-
-Integrated OpenStreetMap to show exact location of the accommodation
-
-📩 Contact / Interested Form
-
-Collects:
-
-Personal details
-
-Email
-
-Number of people
-
-Current role
-
-Comments
-
-Whether shifting help is needed
-
-✨ Fully Responsive UI
-
-Smooth design
-
-Modern font styling
-
-Clean layout for desktop and mobile
-
-🔥 Firebase Integration
-
-Database used to store user interest form submissions
-
-Easy to scale and manage
+📱 Fully responsive UI (TailwindCSS)
 
 🛠️ Tech Stack
-Technology	Purpose
-React.js	Frontend framework
-HTML / CSS	UI structure and styling
-Firebase	Storing contact form data
-OpenStreetMap + Leaflet	Map rendering
-Vercel	Hosting and deployment
-📸 Screenshots
 
-A few UI screens from the app
-(You can manually add images using: ![alt](image link))
+React.js
+
+TailwindCSS
+
+JavaScript (ES6+)
+
+Firebase (Form submissions)
+
+Vercel (Deployment)
 
 📂 Folder Structure
-Flat-Hunt/
- ├── public/
- ├── src/
- │   ├── components/
- │   ├── pages/
- │   ├── firebase.js
- │   ├── App.js
- │   ├── index.js
- │   └── styles/
- ├── package.json
- └── README.md
+flat-hunt/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.js
+│   ├── index.js
+│
+├── package.json
+├── tailwind.config.js
+├── README.md
 
-⚙️ How to Run Locally
-1️⃣ Clone the repository
-git clone https://github.com/amitsingh79/Flat-Hunt-
-cd Flat-Hunt-main/Flat-Hunt-main
+⚙️ Installation & Setup
 
-2️⃣ Install dependencies
+Follow these steps to run the project locally:
+
+# Clone repository
+git clone https://github.com/yourusername/flat-hunt.git
+
+# Open folder
+cd flat-hunt
+
+# Install dependencies
 npm install
 
-3️⃣ Create Firebase config
-
-Create a file:
-
-src/firebase.js
+# Start the development server
+npm run dev
 
 
-Paste your Firebase config into it.
+The app will open at:
 
-4️⃣ Start server
-npm start
+http://localhost:5173/
 
+🚀 Deployment
 
-React app will run at:
-👉 http://localhost:3000
+You can easily deploy this project using:
 
-🌐 Deployment
+Vercel Deployment
 
-The project is deployed on Vercel:
-📎 https://flat-hunt-cu.vercel.app/home
+Go to https://vercel.com
 
-🙌 Author
+Import your GitHub repository
 
-Amit Singh
-GitHub: https://github.com/amitsingh79
+Select the main branch
+
+Deploy
+
+Vercel will auto-build and host your project.
+
+📸 Screenshots
+
+![Home Page]()
+![Property Details]()
+![Interest Form]()
