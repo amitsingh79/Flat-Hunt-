@@ -82,6 +82,6 @@ Vercel will auto-build and host your project.
 
 📸 Screenshots
 
-![Home Page]()
+![Homepage.png]()
 ![Property Details]()
 ![Interest Form]()
