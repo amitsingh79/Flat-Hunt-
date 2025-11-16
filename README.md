@@ -82,6 +82,14 @@ Vercel will auto-build and host your project.
 
 📸 Screenshots
 
-![Homepage.png]()
-![Property Details]()
-![Interest Form]()
+### 🔹 Homepage
+<img src="Homepage.png" alt="Create Alert" width="70%">
+
+### 🔹 Flat/Apartments
+<img src="Flat.png" alt="Manage Alert" width="70%">
+
+### 🔹 Property Card
+<img src="property caard.png" alt="Notification Inbox" width="70%">
+
+### 🔹 Form
+<img src="form.png" alt="Analytics" width="70%">
